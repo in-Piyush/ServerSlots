@@ -1,0 +1,16 @@
+name: ServerSlots
+version: '1.0'
+main: in.piyush.serverSlots.ServerSlots
+api-version: '1.21'
+authors: [ WeThink ]
+commands:
+  serverslots:
+    description: Changes server slots without restarting server!
+    aliases: [ss]
+    permission: serverslots.use
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  serverslots.use:
+    description: Allows use of /serverslots
+    default: op
