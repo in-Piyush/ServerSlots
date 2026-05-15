@@ -2,7 +2,7 @@ name: ServerSlots
 version: '1.0'
 main: in.piyush.serverSlots.ServerSlots
 api-version: '1.21'
-authors: [ WeThink ]
+authors: [ Piyush ]
 commands:
   serverslots:
     description: Changes server slots without restarting server!
